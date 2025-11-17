@@ -9,4 +9,6 @@ signals, info = nk.ecg_process(ecg, sampling_rate=250)
 # Visualise the processing
 nk.ecg_plot(signals, info)
 # Print the info dictionary to see extracted features
-print(info)
+print(info) 
+# print signals head to see the processed signals
+print(signals.head())
